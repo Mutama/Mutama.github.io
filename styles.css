@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Railway:300, 400');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;  
+    background-image: linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.82)), url("c07356ae-5b6c-4ebf-b19c-e5d7e3c3749c.png");
+    background-position: center;  
+    background-size: cover;
+}
+
+.img {
+    opacity: 0.75;
+}
+
+.nav ul{
+    margin: 0;
+    display: inline-block;
+}
+
+.nav li{
+    display: inline;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.main-header {
+        background-color: rgba(0, 0, 0, .6);
+        background-image: url("beauty-4993469_1280.jpg");
+        background-blend-mode: multiply;
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+
+.name {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: "Bodoni MT";
+    font-weight: normal;
+    color: #FE66CB;
+}
+
+.name-large {
+    font-size: 5em;
+    text-align: center;
+
+}
+
+.content-section{
+    margin: 1em;
+
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: "Bodoni MT";
+    font-weight: normal;
+    color: 333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about{
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+}
+.main-footer{
+    color: #FE66CB ;
+    padding-bottom: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1.6%;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer h3 {
+    text-align: left;
+}
